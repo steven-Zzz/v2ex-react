@@ -8,7 +8,7 @@ var HtmlWebpackHarddiskPlugin = require('./webpack/html-webpack-harddisk-plugin'
 
 var host = '0.0.0.0';
 var port = 3333;
-var outputTemplatePath = path.resolve(__dirname, "../../backend/templates/");
+var outputTemplatePath = path.resolve(__dirname, "../../templates/");
 
 _.keys(config.entry).forEach(function (k) {
     config.entry[k].unshift(
